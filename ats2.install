@@ -1,0 +1,11 @@
+# Environment Variable Info
+
+post_install() {
+    echo '\n';
+    echo 'Please add the following lines to your bash configuration:';
+    echo '    export PATSHOME=/usr/share/ATS2/main';
+    echo '    export PATSHOMERELOC=/usr/share/ATS2/contrib';
+    echo '    export PATSHOME_contrib=/usr/share/ATS2/contrib';
+    echo '    export PATH=${PATSHOME}/bin'
+    echo '\n';
+}

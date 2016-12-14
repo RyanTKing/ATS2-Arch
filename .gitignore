@@ -1,0 +1,5 @@
+*.pkg.tar.xz
+contrib
+main
+pkg
+src
